@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint AnyError.podspec' to ensure this is a
+# Be sure to run `pod lib lint AnyErrorKit.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
 A Generic and Basic error handling library for iOS by Fox Labs. It contains utility methods for various classes in iOS.
 						DESC
 
-  s.homepage         = 'https://github.com/Nickelfox/AnyError'
+  s.homepage         = 'https://github.com/Nickelfox/AnyErrorKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ravindra Soni' => 'soni@nickelfox.com' }
-  s.source           = { :git => 'https://github.com/Nickelfox/AnyError.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Nickelfox/AnyErrorKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 

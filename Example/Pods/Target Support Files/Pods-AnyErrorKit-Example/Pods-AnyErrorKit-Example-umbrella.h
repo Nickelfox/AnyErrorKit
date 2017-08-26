@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_AnyError_ExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_AnyError_ExampleVersionString[];
+FOUNDATION_EXPORT double Pods_AnyErrorKit_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_AnyErrorKit_ExampleVersionString[];
 
