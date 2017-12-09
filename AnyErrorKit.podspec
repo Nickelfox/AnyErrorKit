@@ -19,6 +19,9 @@ A Generic and Basic error handling library for iOS by Fox Labs. It contains util
   s.author           = { 'Ravindra Soni' => 'soni@nickelfox.com' }
   s.source           = { :git => 'https://github.com/Nickelfox/AnyErrorKit.git', :tag => s.version.to_s }
 
+  s.osx.deployment_target = "10.9"
+  s.tvos.deployment_target = "9.0"
+  s.watchos.deployment_target = "2.0"
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'Source/**/*'  
