@@ -1,6 +1,6 @@
 //
-//  AnyErrorKit_tvOS.h
-//  AnyErrorKit tvOS
+//  AnyErrorKit.h
+//  AnyErrorKit
 //
 //  Created by Vaibhav Parmar on 09/01/18.
 //  Copyright © 2018 Nickelfox. All rights reserved.

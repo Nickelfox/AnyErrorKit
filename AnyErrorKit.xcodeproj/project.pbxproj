@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FBADD6B720050B6E00985CF1 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADD6B620050B6E00985CF1 /* AnyError.swift */; };
-		FBADD6C120050B8D00985CF1 /* AnyErrorKit_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = FBADD6BF20050B8D00985CF1 /* AnyErrorKit_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBADD6CE20050BAA00985CF1 /* AnyErrorKit_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = FBADD6CC20050BAA00985CF1 /* AnyErrorKit_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBADD6C120050B8D00985CF1 /* AnyErrorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBADD6BF20050B8D00985CF1 /* AnyErrorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBADD6CE20050BAA00985CF1 /* AnyErrorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBADD6CC20050BAA00985CF1 /* AnyErrorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBADD6D420050BB600985CF1 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADD6D320050BB600985CF1 /* AnyError.swift */; };
 		FBADD6D720050BC100985CF1 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADD6D620050BC100985CF1 /* AnyError.swift */; };
 		FBB3F17F2003B9A000994D2F /* AnyErrorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB3F17D2003B9A000994D2F /* AnyErrorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -18,10 +18,10 @@
 /* Begin PBXFileReference section */
 		FBADD6B620050B6E00985CF1 /* AnyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyError.swift; sourceTree = "<group>"; };
 		FBADD6BD20050B8D00985CF1 /* AnyErrorKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnyErrorKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBADD6BF20050B8D00985CF1 /* AnyErrorKit_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyErrorKit_tvOS.h; sourceTree = "<group>"; };
+		FBADD6BF20050B8D00985CF1 /* AnyErrorKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyErrorKit.h; sourceTree = "<group>"; };
 		FBADD6C020050B8D00985CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBADD6CA20050BAA00985CF1 /* AnyErrorKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnyErrorKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBADD6CC20050BAA00985CF1 /* AnyErrorKit_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyErrorKit_macOS.h; sourceTree = "<group>"; };
+		FBADD6CC20050BAA00985CF1 /* AnyErrorKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyErrorKit.h; sourceTree = "<group>"; };
 		FBADD6CD20050BAA00985CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBADD6D320050BB600985CF1 /* AnyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyError.swift; sourceTree = "<group>"; };
 		FBADD6D620050BC100985CF1 /* AnyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyError.swift; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				FBADD6D220050BB600985CF1 /* Classes */,
-				FBADD6BF20050B8D00985CF1 /* AnyErrorKit_tvOS.h */,
+				FBADD6BF20050B8D00985CF1 /* AnyErrorKit.h */,
 				FBADD6C020050B8D00985CF1 /* Info.plist */,
 			);
 			path = "AnyErrorKit tvOS";
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				FBADD6D520050BC100985CF1 /* Classes */,
-				FBADD6CC20050BAA00985CF1 /* AnyErrorKit_macOS.h */,
+				FBADD6CC20050BAA00985CF1 /* AnyErrorKit.h */,
 				FBADD6CD20050BAA00985CF1 /* Info.plist */,
 			);
 			path = "AnyErrorKit macOS";
@@ -139,7 +139,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBADD6C120050B8D00985CF1 /* AnyErrorKit_tvOS.h in Headers */,
+				FBADD6C120050B8D00985CF1 /* AnyErrorKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBADD6CE20050BAA00985CF1 /* AnyErrorKit_macOS.h in Headers */,
+				FBADD6CE20050BAA00985CF1 /* AnyErrorKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
