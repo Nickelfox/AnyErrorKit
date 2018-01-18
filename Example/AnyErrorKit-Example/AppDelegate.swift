@@ -7,6 +7,13 @@
 //
 
 import UIKit
+import AnyErrorKit
+
+class SomeError: AnyError {
+	var code: Int  = 0
+	var domain: String = "Error"
+	var message: String = "Error"
+}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
