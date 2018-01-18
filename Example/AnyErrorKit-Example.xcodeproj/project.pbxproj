@@ -22,15 +22,6 @@
 		7C3EC45D85887FFD87005521 /* Pods_JSONParsing_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONParsing_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9C88E5CF88080216D4F4A3 /* Pods_AnyErrorKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnyErrorKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35955A5F0B4ABE589C75BED /* Pods-AnyError-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyError-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnyError-Example/Pods-AnyError-Example.release.xcconfig"; sourceTree = "<group>"; };
-		E3E412302010A44F00BEF8B5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E3E412312010A44F00BEF8B5 /* Example.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Example.playground; sourceTree = "<group>"; };
-		E3E412322010A44F00BEF8B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E3E412342010A44F00BEF8B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E3E412362010A44F00BEF8B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E3E412372010A44F00BEF8B5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3E412382010A44F00BEF8B5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3E412452010A5D200BEF8B5 /* AnyErrorKit_Example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyErrorKit_Example.h; sourceTree = "<group>"; };
-		E3E412462010A5D200BEF8B5 /* AnyErrorKit_Example.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnyErrorKit_Example.m; sourceTree = "<group>"; };
 		E3E412502010A5E800BEF8B5 /* AnyErrorKit-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnyErrorKit-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E412522010A5E800BEF8B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3E412542010A5E800BEF8B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,8 +68,6 @@
 		E368CC6D1F285E5600420C6D = {
 			isa = PBXGroup;
 			children = (
-				E3E4122F2010A44F00BEF8B5 /* AnyErrorKit-Example */,
-				E3E412442010A5D200BEF8B5 /* AnyErrorKit-Example */,
 				E3E412512010A5E800BEF8B5 /* AnyErrorKit-Example */,
 				E368CC771F285E5600420C6D /* Products */,
 				914ACC39546488CDCA792F9B /* Pods */,
@@ -92,29 +81,6 @@
 				E3E412502010A5E800BEF8B5 /* AnyErrorKit-Example.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E3E4122F2010A44F00BEF8B5 /* AnyErrorKit-Example */ = {
-			isa = PBXGroup;
-			children = (
-				E3E412302010A44F00BEF8B5 /* ViewController.swift */,
-				E3E412312010A44F00BEF8B5 /* Example.playground */,
-				E3E412322010A44F00BEF8B5 /* Assets.xcassets */,
-				E3E412332010A44F00BEF8B5 /* LaunchScreen.storyboard */,
-				E3E412352010A44F00BEF8B5 /* Main.storyboard */,
-				E3E412372010A44F00BEF8B5 /* AppDelegate.swift */,
-				E3E412382010A44F00BEF8B5 /* Info.plist */,
-			);
-			path = "AnyErrorKit-Example";
-			sourceTree = "<group>";
-		};
-		E3E412442010A5D200BEF8B5 /* AnyErrorKit-Example */ = {
-			isa = PBXGroup;
-			children = (
-				E3E412452010A5D200BEF8B5 /* AnyErrorKit_Example.h */,
-				E3E412462010A5D200BEF8B5 /* AnyErrorKit_Example.m */,
-			);
-			path = "AnyErrorKit-Example";
 			sourceTree = "<group>";
 		};
 		E3E412512010A5E800BEF8B5 /* AnyErrorKit-Example */ = {
@@ -268,22 +234,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E3E412332010A44F00BEF8B5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3E412342010A44F00BEF8B5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		E3E412352010A44F00BEF8B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3E412362010A44F00BEF8B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E3E412562010A5E900BEF8B5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
