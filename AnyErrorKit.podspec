@@ -24,5 +24,5 @@ A Generic and Basic error handling library for iOS by Fox Labs. It contains util
   s.watchos.deployment_target = "2.0"
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Source/**/*'  
+  s.source_files = 'Sources/**/*'  
 end
