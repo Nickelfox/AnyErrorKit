@@ -40,7 +40,7 @@ Once you have your Swift package set up, adding AnyErrorKit as a dependency is a
 
 ```
 dependencies: [
-    .package(url: "https://github.com/Nickelfox/AnyErrorKit", .branch("develop"))
+    .package(url: "https://github.com/Nickelfox/AnyErrorKit", .branch("master"))
 ]
 ```
 
