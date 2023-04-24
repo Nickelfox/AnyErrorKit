@@ -55,5 +55,70 @@ Just download and add the `Source` folder to your project.
 - Error conversion: AnyError provides utility methods to convert between different error types, allowing you to convert errors from one type to another.
 - Error chaining: AnyError allows you to chain multiple errors together, making it easier to represent complex error scenarios in Swift applications.
 
+## Usage
 
+**Creating an `AnyError`**
 
+You can create an AnyError instance by simply passing an error instance to its initializer:
+
+```ruby
+import AnyErrorKit
+
+let error = NSError(domain: "com.example", code: 1, userInfo: nil)
+let anyError = AnyError(error)
+```
+You can also create an AnyError from a Swift.Error instance:
+```ruby
+import AnyErrorKit
+
+enum MyError: Error {
+    case someError
+}
+
+let myError = MyError.someError
+let anyError = AnyError(myError)
+```
+
+**Handling an `AnyError`**
+You can handle an AnyError instance using standard Swift error handling techniques, such as do-catch blocks:
+```ruby
+import AnyErrorKit
+
+let error = NSError(domain: "com.example", code: 1, userInfo: nil)
+let anyError = AnyError(error)
+
+do {
+    // Code that may throw an error
+} catch let error as AnyError {
+    // Handle the error
+    print("Error: \(error)")
+} catch {
+    // Handle other errors
+}
+```
+You can also access the underlying error instance from an AnyError using the underlyingError property:
+
+```ruby
+import AnyErrorKit
+
+let error = NSError(domain: "com.example", code: 1, userInfo: nil)
+let anyError = AnyError(error)
+
+if let underlyingError = anyError.underlyingError as? NSError {
+    // Access properties of the underlying error
+    print("Domain: \(underlyingError.domain), Code: \(underlyingError.code)")
+}
+```
+Converting between error types
+`AnyErrorKit` provides utility methods to convert between different error types. You can use the `asError()` method on Error instances to convert them to an `AnyError`, and you can use the `asType()` method on AnyError instances to convert them to a specific error type.
+
+```ruby
+import AnyErrorKit
+
+enum MyError: Error {
+    case someError
+}
+
+let myError = MyError.someError
+let anyError = myError
+```
