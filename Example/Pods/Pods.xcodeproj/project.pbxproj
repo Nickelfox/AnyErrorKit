@@ -33,21 +33,21 @@
 		18ABC74C502AE6006C8BCCC55C22A354 /* AnyErrorKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnyErrorKit-dummy.m"; sourceTree = "<group>"; };
 		3555486EEBD6028CA14DAB0D084800AD /* AnyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyError.swift; path = Source/Classes/AnyError.swift; sourceTree = "<group>"; };
 		411D3C3856AEDB0513F21946172DCD01 /* AnyErrorKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnyErrorKit.xcconfig; sourceTree = "<group>"; };
-		461B335D76FCE8958EC331CF50AA6ED7 /* Pods_AnyErrorKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AnyErrorKit_Example.framework; path = "Pods-AnyErrorKit-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		461B335D76FCE8958EC331CF50AA6ED7 /* Pods_AnyErrorKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnyErrorKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3C30855FCC2DAC8633595469436B3A /* AnyErrorKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyErrorKit-prefix.pch"; sourceTree = "<group>"; };
 		51474CA271748AC291D222506559DBBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8728A4602AAB0CC75C454FF30F5A6173 /* Pods-AnyErrorKit-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnyErrorKit-Example-umbrella.h"; sourceTree = "<group>"; };
-		8A30A82FE6DE80C7811461A10B8FDC84 /* AnyErrorKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AnyErrorKit.modulemap; sourceTree = "<group>"; };
+		8A30A82FE6DE80C7811461A10B8FDC84 /* AnyErrorKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AnyErrorKit.modulemap; sourceTree = "<group>"; };
 		902F62FB0F8F5D23DD31845D775E1329 /* AnyErrorKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyErrorKit-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94EAD18663416CF4271C94644D2869F6 /* Pods-AnyErrorKit-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnyErrorKit-Example-frameworks.sh"; sourceTree = "<group>"; };
-		9A735B9223E0C01D088BDBE8EF9A7F1D /* Pods-AnyErrorKit-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AnyErrorKit-Example.modulemap"; sourceTree = "<group>"; };
+		9A735B9223E0C01D088BDBE8EF9A7F1D /* Pods-AnyErrorKit-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AnyErrorKit-Example.modulemap"; sourceTree = "<group>"; };
 		AADAF4BEC57530B5011F7B1BDB046B07 /* Pods-AnyErrorKit-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnyErrorKit-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B0071E0A15084E3A37BE7458E3185342 /* Pods-AnyErrorKit-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnyErrorKit-Example.release.xcconfig"; sourceTree = "<group>"; };
 		C595B1A0AB2C1943E3569F5A4BC140F1 /* Pods-AnyErrorKit-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnyErrorKit-Example-resources.sh"; sourceTree = "<group>"; };
 		E5F180D7F5404C6DAD881C21D33BA5EB /* Pods-AnyErrorKit-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnyErrorKit-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FF75BF13380EA336A02B38F4B29E144B /* AnyErrorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnyErrorKit.framework; path = AnyErrorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF75BF13380EA336A02B38F4B29E144B /* AnyErrorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnyErrorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +235,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -363,6 +364,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -391,7 +393,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -455,6 +456,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -517,7 +519,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
